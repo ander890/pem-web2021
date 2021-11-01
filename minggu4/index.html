@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Nomor</td>
+                <td colspan="3"><b>INFO PENDAFTARAN</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>NISN</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Asal Sekolah</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tahun Lulus</td>
+                <td class="noborder">:</td>
+                <td><input type="text"><a style="float:right">(lampirkan foto copy ijazah)</a></td>
+            </tr>
+            <tr>
+                <td colspan="4"><b>DATA CALON PESERTA</b></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nama Lengkap</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>NIK</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Tempat/Tanggal Lahir</td>
+                <td class="noborder">:</td>
+                <td><input type="text">, <input type="date"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="3">Foto Copy Akte Kelahiran Yang Telah Dilegalisir (Di Lampirkan)</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Jenis Kelamin</td>
+                <td class="noborder">:</td>
+                <td>
+                    <input type="radio" id="l" name="jenis_kelamin" value="l">
+                    <label for="l">Laki-laki</label><br>
+                    <input type="radio" id="p" name="fav_language" value="p">
+                    <label for="p">Perempuan</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Alamat</td>
+                <td class="noborder">:</td>
+                <td><textarea name="" id="" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Desa / Kel</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Kecamatan</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Kabupaten</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Provinsi</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Email aktif</td>
+                <td class="noborder">:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><b>DATA ORANG TUA</b> <i>(lampirkan KK)</i></td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Nomor Kartu Keluarga</td>
+                <td class="noborder">:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Nama Ayah Kandung</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Agama</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Pekerjaan</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Nama Ibu Kandung</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Agama</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Pekerjaan</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Alamat Orang Tua</td>
+                <td class="noborder">:</td>
+                <td><textarea name="" id="" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Desa / Kel</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Kecamatan</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Kabupaten</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Provinsi</td>
+                <td class="noborder">:</td>
+                <td><input type="text"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
